@@ -15,7 +15,7 @@
             
             
             <div class='containerBolinhas'>
-                <?php for($i=0; $i<8 ; $i++){
+                <?php for($i=0; $i<9 ; $i++){
                 echo '<div class="bolinha"></div>';
             } ?>
 
