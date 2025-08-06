@@ -17,12 +17,5 @@
   });
 
 //
-const listraCimaBaixo = document.querySelector('.listraCimaBaixo');
-
-  // Espera o layout terminar de carregar
-  window.addEventListener('load', () => {
-    const altura = listraCimaBaixo.offsetHeight + 'px';
-    document.documentElement.style.setProperty('--alturaListra', altura);
-  });
 
 

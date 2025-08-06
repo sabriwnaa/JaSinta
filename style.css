@@ -172,12 +172,16 @@
        
 .listraCimaBaixo{
     height: 100%;
-    width: 13%;
+    width: 15%;
     background-color: var(--roxo);
 }
 
+
 .listraLateral{
-    height: var(--alturaListra);
+    
+/*para ficar os quadrados com o mesmo tamanho
+ [100(%) . 15(%,porcentagem que foi colocada como width na anterior)] / 100-(2.15(%, porcentagem da anterior)) */
+    height: 21.5%;
     width: 100%;
     background-color: var(--roxo);
 
