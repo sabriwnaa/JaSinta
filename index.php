@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JaSinta</title>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Inter:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Inter:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="style.css">
 
     <style>
@@ -17,48 +17,27 @@
     
 
     <div class='container'>
-        <?php include('includes/header.php'); ?>
-        
-        <div class='main'>
-            <div class='cartaListrada'>
-                <div class='linhaListrada'>
-                    <?php 
-                        for($i=0;$i < 6;$i++){
-                        echo '<div class="listraCimaBaixo"></div>';
-                        }  
-                    ?> 
-                </div>
-                <div class='meioListrada'>
-                        
-                    <div class='lateralListrada'>
-                        <?php 
-                            for($i=0;$i < 4;$i++){
-                            echo '<div class="listraLateral"></div>';
-                            }  
-                        ?> 
-                    </div>
-                    <div class='mainListrada'></div>
-                    <div class='lateralListrada'>
-                        <?php 
-                            for($i=0;$i < 4;$i++){
-                            echo '<div class="listraLateral"></div>';
-                            }  
-                        ?> 
-                    </div>
-                </div>
-                
-                    
-                <div class='linhaListrada'>
-                    <?php 
-                        for($i=0;$i < 6;$i++){
-                        echo '<div class="listraCimaBaixo"></div>';
-                        }  
-                    ?> 
-                </div>
-        
+        <img src="flor.webp" class="corner top-left">
+
+            <img src="flor.webp" class="corner top-right">
+
+            <img src="flor.webp" class="corner bottom-left">
+
+            <img src="flor.webp" class="corner bottom-right">
 
         
-            </div>
+        
+        <div class='main'>
+<!--nao está dando certo ainda-->
+            <img src="rosto.png" alt="imagem de emogi" class='logo'>
+            
+            
+
+            <h1 class='titulo'>JaSinta</h1>
+
+            <a href="gerenciar-pecas.php" class='titulo'>Gerenciar peças</a>
+            
+            <a href="manual.php" class='titulo'>Manual de Instruções</a>
         </div>
 
 
