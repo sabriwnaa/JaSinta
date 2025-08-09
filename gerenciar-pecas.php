@@ -11,8 +11,19 @@
     <div class='container'>
         <?php include('includes/header.php'); ?>
         <div class='main'>
-            <button onclick="history.back()">Voltar</button>
-            <h1 class='titulo'>Gerenciar Peças</h1>
+            <div class='container-titulo'>
+                <button onclick="history.back()" class='corner top-left'>Voltar</button>
+                <h1 class='titulo'>Gerenciar peças</h1>
+            </div>
+            <div class='container-horizontal bloco'>
+                <div class='container-vertical peca'>
+                    <h1>Fotos</h1>
+                </div>
+                <div class='container-vertical peca'>
+                    <h1>Sentimentos</h1>
+                </div>
+            </div>
+
         </div>
 
     </div>

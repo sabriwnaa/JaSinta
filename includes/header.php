@@ -8,10 +8,10 @@
 <body>
     
         <div class='header'>
-            <div class='textoHeader'>
+            <a href='index.php' class='textoHeader'>
                 <h1 class='titulo'>JaSinta</h1>
                 <p class='texto'>Guie-se pelo sentir</p>
-            </div>
+            </a>
             
             
             <div class='containerBolinhas'>

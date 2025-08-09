@@ -28,9 +28,7 @@
         
         
         <div class='main'>
-<!--nao está dando certo ainda-->
-            <img src="rosto.png" alt="imagem de emogi" class='logo'>
-            
+
             
 
             <h1 class='titulo'>JaSinta</h1>
