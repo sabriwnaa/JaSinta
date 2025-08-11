@@ -11,16 +11,7 @@
 <body>
     <div class='container'>
         <div class='header-jogar'>
-            <div class='container-nivel'>
-                <h2>Nivel 1</h2>
-                <?php for($i=0;$i<10;$i ++){
-                    echo '<img src="flor.webp">';
-                }
-                ?>
-            </div>
-            <div class='jasinta-jogar'>
-                <h1>JaSinta: guie-se pelo sentir</h1>
-            </div>
+            
         </div>
         <div class='main'>
             <div class=''>

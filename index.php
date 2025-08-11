@@ -28,7 +28,7 @@
             
 
             <h1 class='titulo'>JaSinta</h1>
-            <a href="jogar.php" class='titulo'>Jogar</a>
+            <a href="pre-jogar.php" class='titulo'>Jogar</a>
             
             <a href="gerenciar-jogo.php" class='titulo'>Gerenciar jogo</a>
             

@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class='container'>
+      <div class='container'>
         <?php include('includes/header.php')?>
         <div class='main'>
+            <h1>Cadastrar Sentimento</h1>
+            <form action="">
+                <input type="text" placeholder='nome do sentimento'>
+                <button>Cadastrar</button>
+            </form>
             
         </div>
     </div>

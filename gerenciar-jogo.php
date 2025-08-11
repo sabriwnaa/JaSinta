@@ -44,7 +44,7 @@
                 <div class='container-vertical peca-preview'>
                     <div class='container-horizontal'>
                         <h1>Sentimentos</h1>
-                        <a href="sentimentos.php">+</a>
+                        <a href="cadastrar-sentimento.php">+</a>
                     </div>
                     <div class='container-vertical'>
                         <?php for($i=0;$i<5;$i++){?> 
