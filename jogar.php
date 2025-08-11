@@ -23,8 +23,8 @@
             </div>
         </div>
         <div class='main'>
-            <div class='fotos'>
-                <h2>Fotos</h2>
+            <div class=''>
+                <h2></h2>
             </div>
             <div class='container-sentimentos'>
                 <div class='sentimentos'>

@@ -13,7 +13,7 @@
         <div class='main'>
             <div class='container-vertical'>
                 <h1 class='titulo'>Gerenciar jogo</h1>
-                <div class='peca'>
+                <div class='peca-preview'>
                     <div class='container-horizontal'>
                         <h1>Jogadoras</h1>
                         <a href="cadastrar-jogadora.php">+</a>
@@ -29,26 +29,28 @@
             </div>
 
             <div class='container-horizontal bloco'>
-                <div class='container-vertical peca'>
+                <div class='container-vertical peca-preview'>
                     <div class='container-horizontal'>
                         <h1>Fotos</h1>
-                        <a href="cadastrar-foto.php">+</a>
+                        <a href="fotos.php">+</a>
                     </div>
                     <div class='container-horizontal'>
                         <?php for($i=0;$i<5;$i++){?> 
                             <h2>Foto X</h2>
                         <?php } ?>
+                        <a href="fotos.php">FotoY</a>
                     </div>
                 </div>
-                <div class='container-vertical peca'>
+                <div class='container-vertical peca-preview'>
                     <div class='container-horizontal'>
                         <h1>Sentimentos</h1>
-                        <a href="cadastrar-sentimento.php">+</a>
+                        <a href="sentimentos.php">+</a>
                     </div>
                     <div class='container-vertical'>
                         <?php for($i=0;$i<5;$i++){?> 
                             <h2>sentimento X</h2>
                         <?php } ?>
+                        <a href="sentimentos.php">sentimento y</a>
                     </div>
                 </div>
             </div>

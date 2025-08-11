@@ -13,9 +13,7 @@
         <?php include('includes/header.php'); ?>
         <div class='main'>
             <div class='container-horzintal'>
-            
-                <button onclick="history.back()" class='corner top-left'>Voltar</button>
-                <h1 class='titulo' style='width:auto;'>Manual de Instruções</h1>
+               <h1 class='titulo' style='width:auto;'>Manual de Instruções</h1>
             </div>
 
             <div class='container-vertical'>

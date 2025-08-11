@@ -32,12 +32,12 @@
 }
 
 
-.header-jogar,.container-sentimentos,  .container-nivel, .container, .main, .container-titulo, .container-horizontal, .container-vertical,  .header, .containerBolinhas, .textoHeader, .cartaListrada, .lateralListrada{
+.header-jogar,.container-pecas, .container-sentimentos,  .container-nivel, .container, .main, .container-titulo, .container-horizontal, .container-vertical,  .header, .containerBolinhas, .textoHeader, .cartaListrada, .lateralListrada{
     display: flex;
 }
 
 
-.header-jogar,.container-sentimentos,  .container-nivel, .container, .main, .container-titulo, .container-horizontal, .container-vertical, .containerBolinhas, .textoHeader, .cartaListrada, .lateralListrada{
+.header-jogar, .container-pecas, .container-sentimentos,  .container-nivel, .container, .main, .container-titulo, .container-horizontal, .container-vertical, .containerBolinhas, .textoHeader, .cartaListrada, .lateralListrada{
     
     justify-content: center;
     text-align: center;
@@ -76,13 +76,23 @@ img{
 }
 
 
-.peca{
+.peca-preview{
     flex:1;
     background-color: #1e508c;
     border: 4px solid black;
 }
 
+.container-pecas{
+    flex-wrap: wrap;
+}
 
+.peca{
+    background-color: var(--rosa);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    position: relative; 
+}
 
 
 
