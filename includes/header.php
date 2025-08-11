@@ -8,18 +8,16 @@
 <body>
     
         <div class='header'>
+
+            <button onclick="history.back()" style='width:50%'>Voltar</button>
+                
             <a href='index.php' class='textoHeader'>
                 <h1 class='titulo'>JaSinta</h1>
                 <p class='texto'>Guie-se pelo sentir</p>
             </a>
             
             
-            <div class='containerBolinhas'>
-                <?php for($i=0; $i<9 ; $i++){
-                echo '<div class="bolinha"></div>';
-            } ?>
-
-            </div>
+            
 
         </div>
 

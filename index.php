@@ -30,7 +30,7 @@
             <h1 class='titulo'>JaSinta</h1>
             <a href="jogar.php" class='titulo'>Jogar</a>
             
-            <a href="gerenciar-pecas.php" class='titulo'>Gerenciar peças</a>
+            <a href="gerenciar-jogo.php" class='titulo'>Gerenciar jogo</a>
             
             <a href="manual.php" class='titulo'>Manual de Instruções</a>
         </div>
