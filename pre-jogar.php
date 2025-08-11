@@ -9,7 +9,7 @@
 </head>
 <body>
       <div class='container'>
-        <?php include('includes/header-jogo.php')?>
+        <?php include('includes/header.php')?>
         <div class='main'>
             <h1>Antes de iniciar o jogo</h1>
             <form action="">

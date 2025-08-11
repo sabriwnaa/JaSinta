@@ -16,7 +16,7 @@
                 <div class='peca-preview'>
                     <div class='container-horizontal'>
                         <h1>Jogadoras</h1>
-                        <a href="cadastrar-jogadora.php">+</a>
+                        <a href="cud/cadastrar-jogadora.php">+</a>
                     </div>
                     
                     <div class='container-horizontal'>
@@ -35,16 +35,14 @@
                         <a href="fotos.php">+</a>
                     </div>
                     <div class='container-horizontal'>
-                        <?php for($i=0;$i<5;$i++){?> 
-                            <h2>Foto X</h2>
-                        <?php } ?>
+                        <?php $ultimas = consultarUltimasTresFotos(); ?>
                         <a href="fotos.php">FotoY</a>
                     </div>
                 </div>
                 <div class='container-vertical peca-preview'>
                     <div class='container-horizontal'>
                         <h1>Sentimentos</h1>
-                        <a href="cadastrar-sentimento.php">+</a>
+                        <a href="cud/cadastrar-sentimento.php">+</a>
                     </div>
                     <div class='container-vertical'>
                         <?php for($i=0;$i<5;$i++){?> 

@@ -14,15 +14,15 @@
             <div class='container-horizontal'>
                 <h1>Sentimetos</h1>
                 <div class='container-horizontal'>
-                    <a href="cadastrar-foto.php">Cadastrar</a>
+                    <a href="cud/cadastrar-foto.php">Cadastrar</a>
                 </div>
             </div>
             <div class='container-pecas'>
                 <?php for($i=0;$i < 10; $i ++) {  ?>
                     <div class='peca'>
-                        <p>Senitimento <?php echo $i;?></p>
+                        <p>Sentimento <?php echo $i;?></p>
                         <a href="preferencia-sentimento.php" class='corner top-right'>Preferencia</a>
-                        <a href="excluir-sentimento.php" class='corner bottom-right'>Delete</a>
+                        <a href="cud/excluir-sentimento.php" class='corner bottom-right'>Delete</a>
                     </div>
                <?php }
                 ?>

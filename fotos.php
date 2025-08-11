@@ -15,7 +15,7 @@
                 <h1>Fotos</h1>
                 <div class='container-horizontal'>
                     <a href="">Categorizar</a>
-                    <a href="cadastrar-foto.php">Cadastrar</a>
+                    <a href="cud/cadastrar-foto.php">Cadastrar</a>
                     <a href="">Filtrar</a>
                 </div>
             </div>
@@ -24,7 +24,7 @@
                     <div class='peca'>
                         <p>Foto <?php echo $i;?></p>
                         <a href="preferencia-foto.php" class='corner top-right'>Preferencia</a>
-                        <a href="excluir-foto.php" class='corner bottom-right'>Delete</a>
+                        <a href="cud/excluir-foto.php" class='corner bottom-right'>Delete</a>
                     </div>
                <?php }
                 ?>
