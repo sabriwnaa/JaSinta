@@ -32,15 +32,34 @@
 }
 
 
-.container, .main, .container-titulo, .container-horizontal, .container-vertical,  .header, .containerBolinhas, .textoHeader, .cartaListrada, .lateralListrada{
+.header-jogar,.container-sentimentos,  .container-nivel, .container, .main, .container-titulo, .container-horizontal, .container-vertical,  .header, .containerBolinhas, .textoHeader, .cartaListrada, .lateralListrada{
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
+img{
+    width: 10px;
+    height: 10px;
+}
+
 
 .container, .main,  .container-vertical, .textoHeader, .cartaListrada, .lateralListrada{
     flex-direction: column;
+}
+
+.fotos{
+    flex:3;
+    background-color: #1e508c;
+}
+
+
+.header-jogar, .container-sentimentos{
+    flex: 1;
+}
+
+.container-nivel, .jasinta-jogar{
+    width: 50%;
 }
 
 .container-titulo{
