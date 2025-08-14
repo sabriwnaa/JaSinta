@@ -1,3 +1,7 @@
+<?php require('modulos/foto-modulo.php');
+$fotos = consultarUltimasTresFotos();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,8 +39,21 @@
                         <a href="fotos.php">+</a>
                     </div>
                     <div class='container-horizontal'>
-                        <?php $ultimas = consultarUltimasTresFotos(); ?>
-                        <a href="fotos.php">FotoY</a>
+                        <?php if (empty($fotos)): ?>
+                    <p class="texto">Nenhuma foto encontrada para esse filtro.</p>
+                        <?php else: ?>
+                            <?php foreach ($fotos as $foto): ?>
+                                <div class="peca">
+                                    <p><?= htmlspecialchars(('Foto #'.$foto['id'])) ?></p>
+                                    <?php if (!empty($foto['imagem'])): ?>
+                                        <img src="<?= htmlspecialchars($foto['imagem']) ?>" alt="">
+                                    <?php endif; ?>
+
+                                    <a href="preferencia-foto.php?id=<?= (int)$foto['id'] ?>" class="corner top-right">Preferência</a>
+                                    <a href="cud/excluir-foto.php?id=<?= (int)$foto['id'] ?>" class="corner bottom-right">Delete</a>
+                                </div>
+                            <?php endforeach; ?>
+                        <?php endif; ?>
                     </div>
                 </div>
                 <div class='container-vertical peca-preview'>

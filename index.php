@@ -13,13 +13,13 @@
     
 
     <div class='container'>
-        <img src="flor.webp" class="corner top-left">
+        <img src="img/flor.webp" class="corner top-left">
 
-            <img src="flor.webp" class="corner top-right">
+            <img src="img/flor.webp" class="corner top-right">
 
-            <img src="flor.webp" class="corner bottom-left">
+            <img src="img/flor.webp" class="corner bottom-left">
 
-            <img src="flor.webp" class="corner bottom-right">
+            <img src="img/flor.webp" class="corner bottom-right">
 
         
         
