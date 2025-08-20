@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JaSinta</title>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Inter:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">  
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/index.css">
     <script src="script.js" defer></script>
 
 </head>
@@ -20,20 +20,18 @@
             <img src="img/flor.webp" class="corner bottom-left">
 
             <img src="img/flor.webp" class="corner bottom-right">
-
+        
         
         
         <div class='main'>
-
+                <h1 class='titulo'>JaSinta</h1>
             
-
-            <h1 class='titulo'>JaSinta</h1>
-            <a href="pre-jogar.php" class='titulo'>Jogar</a>
-            
-            <a href="gerenciar-jogo.php" class='titulo'>Gerenciar jogo</a>
-            
-            <a href="manual.php" class='titulo'>Manual de Instruções</a>
-        </div>
+                <div class='container-botoes'>
+                    <a href="pre-jogar.php" class='botao-g'>Jogar</a>
+                    <a href="gerenciar-jogo.php" class='botao-m'>Gerenciar jogo</a>
+                    <a href="manual.php" class='botao-m'>Manual de Instruções</a>
+                </div>
+            </div>
 
 
 

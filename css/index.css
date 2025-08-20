@@ -1,0 +1,143 @@
+
+
+
+.corner {
+  position: absolute;
+  width: 100px; 
+  height: auto;
+}
+
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.titulo{
+    font-family: "Fredoka", sans-serif;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 3rem;
+}
+
+.subtitulo{
+   font-size: 1.5px;
+}
+
+.texto{
+    font-size: 1rem;
+}
+
+.container-botoes{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.botao-g{
+    padding:16px 24px;
+    font-weight: 700;
+    background-color: var(--creme);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.botao-m{
+    padding:12px 20px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    background-color: var(--creme);
+}
+
+
+
+
+
+
+
+/* ==================base=================*/
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 2; /* Fica acima das flores */
+}
+
+:root{
+    --vermelho:#bd2e19;
+    --laranja:#d16b27;
+    --amarelo: #e79119;
+    --verde:#3e9a62;
+    --azul: #1e508c;
+    --roxo: #574979;
+    --rosa:#da8299;
+    --creme: #ddd6b9;
+    --marrom: #382b18;
+    --altura-listra: 1px;
+}
+
+.fredoka {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    color: var(--marrom);
+}
+
+html, body {
+  height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url('../img/quadriculado.webp');
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
