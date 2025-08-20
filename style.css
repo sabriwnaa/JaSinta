@@ -1,6 +1,67 @@
+
+
+/*index==================================================*/
+
+.container-botoes{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.botao-g{
+    padding:16px 24px;
+    font-weight: 700;
+    background-color: var(--creme);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.botao-m{
+    padding:12px 20px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    background-color: var(--creme);
+}
+
+
+
+
+
+
+
+/*base======================================================*/
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 2; /* Fica acima das flores */
+}
+
+:root{
+    --vermelho:#bd2e19;
+    --laranja:#d16b27;
+    --amarelo: #e79119;
+    --verde:#3e9a62;
+    --azul: #1e508c;
+    --roxo: #574979;
+    --rosa:#da8299;
+    --creme: #ddd6b9;
+    --marrom: #382b18;
+    --altura-listra: 1px;
+}
+
 .fredoka {
   font-family: "Fredoka", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -14,16 +75,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    color: var(--marrom);
 }
 
-
-
+html, body {
+  height: 100%;
+}
 
 .container{
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
     text-align: center;
-    background-image: url('img/quadriculado.webp');
+    background-image: url('../img/quadriculado.webp');
     background-size: cover;   
     background-position: center;
     background-repeat: no-repeat;
@@ -31,12 +96,25 @@
 }
 
 
-.header-jogar,.container-pecas, .container-sentimentos,  .container-nivel, .container, .main, .container-titulo, .container-horizontal, .container-vertical,  .header, .containerBolinhas, .textoHeader, .cartaListrada, .lateralListrada{
+
+
+
+
+/*AJUSTAR AINDA O QUE ESTÁ ABAIXO============================*/
+
+
+
+
+
+
+
+
+.header-jogar,.container-pecas, .container-sentimentos,  .container-nivel,  .container-titulo, .container-horizontal, .container-vertical,  .header, .containerBolinhas, .textoHeader, .cartaListrada, .lateralListrada{
     display: flex;
 }
 
 
-.header-jogar, .container-pecas, .container-sentimentos,  .container-nivel, .container, .main, .container-titulo, .container-horizontal, .container-vertical, .containerBolinhas, .textoHeader, .cartaListrada, .lateralListrada{
+.header-jogar, .container-pecas, .container-sentimentos,  .container-nivel,  .container-titulo, .container-horizontal, .container-vertical, .containerBolinhas, .textoHeader, .cartaListrada, .lateralListrada{
     
     justify-content: center;
     text-align: center;
@@ -48,7 +126,7 @@ img{
 }
 
 
-.container, .main,  .container-vertical, .textoHeader, .cartaListrada, .lateralListrada{
+  .container-vertical, .textoHeader, .cartaListrada, .lateralListrada{
     flex-direction: column;
 }
 
@@ -108,13 +186,6 @@ img{
     color: var(--creme);
 }
 
-.main{
-    position: relative;
-    z-index: 2; /* Fica acima das flores */
-    width: 100%;
-
-    flex: 8;
-}
 
 
 .logo{
@@ -186,18 +257,6 @@ width: 150px;
   transform: scale(1.2);
 }
 
-:root{
-    --vermelho:#bd2e19;
-    --laranja:#d16b27;
-    --amarelo: #e79119;
-    --verde:#3e9a62;
-    --azul: #1e508c;
-    --roxo: #574979;
-    --rosa:#da8299;
-    --creme: #ddd6b9;
-    --marrom: #382b18;
-    --altura-listra: 1px;
-}
 
 
 .bolinha:nth-child(1){
